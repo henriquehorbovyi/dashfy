@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# This script creates a git branch using dashfy to replace blanks with dashes "-"
+git switch --create $(dashfy $@)
+
