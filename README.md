@@ -1,4 +1,4 @@
-# Dashfy 
+# Dashfy ( -,-) 
 Replace spaces and underlines by dashes
 
 ### Setup
@@ -16,7 +16,8 @@ git clone https://github.com/henriquehorbovyi/dashfy
 export PATH="$HOME/dashfy"
 ```
 4. Use it with Git (Optional)
-You can create an alias to the `git-switch-extension` which executes a `git switch -c $(dashfy $@), meaning that whatever text you pass as a branch name it's going to be dashfied.
+
+You can create an alias to the `git-switch-extension` which executes a `git switch -c $(dashfy $@)`, meaning that whatever text you pass as a branch name it's going to be dashfied.
 
 ```kotlin
 // This is the alias name I use
